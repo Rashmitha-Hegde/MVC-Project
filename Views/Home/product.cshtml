@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Product Catalog";
+}
+<html>
+<body>
+    <h2>Products</h2>
+    <div>
+    <input placeholder="Name" data-bind="value:NAME" />
+    <input placeholder="Category" data-bind="value:CATEGORY" />
+    <input placeholder="Price" data-bind="value:PRICE" />
+    <button data-bind="click:Add">Add Product</button>
+    </div>
+    <br /><br/>
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: products">
+            <tr>
+                <td data-bind="text: id"></td>
+                <td data-bind="text: name"></td>
+                <td data-bind="text: category"></td>
+                <td data-bind="text: price"></td>
+                <td>
+                    <button data-bind="click:$parent.Edit">Edit</button>
+                    <button data-bind="click:$parent.Delete">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br /><br />
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/knockout@3.5.1/build/output/knockout-latest.js"></script>
+    <script src="/js/product.js"></script>
+
+</body>
+</html>

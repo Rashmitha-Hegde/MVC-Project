@@ -1,34 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\MVC_Project\\ProductCatalog\\",
+  "WorkspaceRootPath": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\mvc_project\\productcatalog\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\mvc_project\\productcatalog\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\mvc_project\\productcatalog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\mvc_project\\productcatalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\mvc_project\\productcatalog\\productcatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:productcatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\mvc_project\\productcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\users\\rashe\\onedrive - eg a s\\documents\\mvc_project\\productcatalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\mvc_project\\productcatalog\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\users\\rashe\\onedrive - eg a s\\documents\\mvc_project\\productcatalog\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\users\\rashe\\onedrive - eg a s\\documents\\mvc_project\\productcatalog\\wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:wwwroot\\js\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\users\\rashe\\onedrive - eg a s\\documents\\mvc_project\\productcatalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\users\\rashe\\onedrive - eg a s\\documents\\mvc_project\\productcatalog\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\users\\rashe\\onedrive - eg a s\\documents\\mvc_project\\productcatalog\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\users\\rashe\\onedrive - eg a s\\documents\\mvc_project\\productcatalog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\users\\rashe\\onedrive - eg a s\\documents\\mvc_project\\productcatalog\\productcatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:productcatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|c:\\users\\rashe\\onedrive - eg a s\\documents\\mvc_project\\productcatalog\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2139C7-7791-409C-A5B2-0211FC6D6598}|ProductCatalog.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,28 +46,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\MVC_Project\\ProductCatalog\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\MVC_Project\\ProductCatalog\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:28:37.534Z",
+              "DocumentIndex": 1,
+              "Title": "product.cshtml",
+              "DocumentMoniker": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Views\\Home\\product.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\product.cshtml",
+              "ToolTip": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Views\\Home\\product.cshtml",
+              "RelativeToolTip": "Views\\Home\\product.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-17T04:49:54.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "product.js",
+              "DocumentMoniker": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\wwwroot\\js\\product.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\product.js",
+              "ToolTip": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\wwwroot\\js\\product.js",
+              "RelativeToolTip": "wwwroot\\js\\product.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-15T17:17:01.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\MVC_Project\\ProductCatalog\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\MVC_Project\\ProductCatalog\\appsettings.json",
+              "ToolTip": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -69,64 +90,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductCatalog",
-              "DocumentMoniker": "C:\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj",
-              "RelativeDocumentMoniker": "ProductCatalog.csproj",
-              "ToolTip": "C:\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj",
-              "RelativeToolTip": "ProductCatalog.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-14T11:08:04.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MVC_Project\\ProductCatalog\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\MVC_Project\\ProductCatalog\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T11:04:37.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\MVC_Project\\ProductCatalog\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\MVC_Project\\ProductCatalog\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T11:10:23.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\MVC_Project\\ProductCatalog\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\MVC_Project\\ProductCatalog\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T10:44:59.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:28:37.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductCatalog.csproj",
+              "DocumentMoniker": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj",
+              "RelativeDocumentMoniker": "ProductCatalog.csproj",
+              "ToolTip": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj",
+              "RelativeToolTip": "ProductCatalog.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-14T11:08:04.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T11:04:37.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T11:10:23.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\MVC_Project\\ProductCatalog\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\MVC_Project\\ProductCatalog\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T10:42:37.279Z",
               "EditorCaption": ""

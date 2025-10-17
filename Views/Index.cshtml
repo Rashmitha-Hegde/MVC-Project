@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    ViewData["Title"] = "Product Catalog";
+}
+
+<html>
+    <body>
+        <div>
+    <input data-bind="value:id" placeholder="ProductId"/>
+    <input data-bind="value:name" placeholder="Name"/>
+    <input data-bind="value:category"placeholder="Category" />
+    <input data-bind="value:price" placeholder="Price" />
+    <button data-bind="click: Save">Save</button>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-min.js"></script>
+<script src="~/js/product.js"></script>
+
+</body>
+</html>

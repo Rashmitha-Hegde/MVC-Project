@@ -5,45 +5,17 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Product/GetProducts": {
+    "/api/Product": {
       "get": {
         "tags": [
           "Product"
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Products"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Products"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Products"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
-      }
-    },
-    "/api/Product": {
+      },
       "post": {
         "tags": [
           "Product"
@@ -69,24 +41,7 @@
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Products"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Products"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Products"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -128,24 +83,7 @@
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Products"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Products"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Products"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },

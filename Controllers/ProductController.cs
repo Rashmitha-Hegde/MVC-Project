@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProductCatalog.Models;
 namespace ProductCatalog.Controllers
 {
@@ -6,51 +7,65 @@ namespace ProductCatalog.Controllers
     [Route("api/[controller]")]
     public class ProductController : Controller
     {
-        private static List<Products> products = new List<Products>()
+        private readonly ApplicationDbContext _context;
+        public ProductController(ApplicationDbContext context)
         {
-            new Products { Id = 1, Name = "Laptop", Category = "Electronics", Price = 75000 },
-            new Products { Id = 2, Name = "Headphones", Category = "Electronics", Price = 2500 },
-            new Products { Id = 3, Name = "Coffee Mug", Category = "Kitchen", Price = 300 }
-        };
-        //GET:api/Product
-        [HttpGet("GetProducts")]
-        public IEnumerable<Products> GetProducts()
-        {
-            return products;
+            _context = context;
         }
-        // POST: api/Product
+        //GET:api/Product/GetProducts
+        [HttpGet]
+        public async Task<IActionResult> GetProducts()
+        {
+            var products = await _context.Products.ToListAsync();
+            if (products == null || products.Count == 0)
+                return NotFound("No products found.");
+            return Ok(products);
+        }
+
+        //POST:api/Product
         [HttpPost]
-        public ActionResult<Products> CreateProduct([FromBody] Products newProduct)
+        public async Task<IActionResult> AddProducts([FromBody] Products newProduct)
         {
-            newProduct.Id = products.Count + 1; 
-            products.Add(newProduct);
-            return CreatedAtAction(nameof(GetProducts), new { id = newProduct.Id }, newProduct);
+            if (newProduct == null)
+            {
+                return BadRequest("Invalid Product");
+            }
+            _context.Products.Add(newProduct);
+            await _context.SaveChangesAsync();
+            return Ok(newProduct);
         }
 
-        // PATCH: api/Product/1
+        //PATCH:api/updateProduct
         [HttpPatch("{id}")]
-        public ActionResult<Products> UpdateProduct(int id, [FromBody] Products updatedProduct)
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] Products updatedProduct)
         {
-            var product = products.Find(p => p.Id == id);
-            if (product == null) return NotFound();
-
-            // Update only fields that are not null
-            if (!string.IsNullOrEmpty(updatedProduct.Name)) product.Name = updatedProduct.Name;
-            if (!string.IsNullOrEmpty(updatedProduct.Category)) product.Category = updatedProduct.Category;
-            if (updatedProduct.Price != 0) product.Price = updatedProduct.Price;
-
-            return product;
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+            {
+                return NotFound("Product not found");
+            }
+            if (!string.IsNullOrEmpty(updatedProduct.Name))
+                product.Name = updatedProduct.Name;
+            if (!string.IsNullOrEmpty(updatedProduct.Category))
+                product.Category = updatedProduct.Category;
+            if (updatedProduct.Price != 0)
+                product.Price = updatedProduct.Price;
+            await _context.SaveChangesAsync();
+            return Ok(product);
         }
-
-        // DELETE: api/Product/1
+        //DELETE:api/DeleteProduct
         [HttpDelete("{id}")]
-        public IActionResult DeleteProduct(int id)
+        public async Task<IActionResult>DeleteProduct(int id)
         {
-            var product = products.Find(p => p.Id == id);
-            if (product == null) return NotFound();
-
-            products.Remove(product);
-            return NoContent();
+            var product= await _context.Products.FindAsync(id);
+            if (product == null)
+            {
+                return NotFound("Product not found");
+            }
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+            return Ok(product);
         }
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj": {}
+    "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj": {}
   },
   "projects": {
-    "C:\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj": {
+    "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj",
+        "projectUniqueName": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj",
         "projectName": "ProductCatalog",
-        "projectPath": "C:\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj",
+        "projectPath": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\ProductCatalog.csproj",
         "packagesPath": "C:\\Users\\rashe\\.nuget\\packages\\",
-        "outputPath": "C:\\MVC_Project\\ProductCatalog\\obj\\",
+        "outputPath": "C:\\Users\\rashe\\OneDrive - EG A S\\Documents\\MVC_Project\\ProductCatalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
